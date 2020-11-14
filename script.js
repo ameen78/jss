@@ -1,7 +1,7 @@
 //alert
 window.alert(window.document.querySelector("h1").innerText);
 // condtional statments
-let a = 90 
+let a = 95 
 if(a<35){
     console.log("fail");
 }else if (a>=35 && a<43){
@@ -15,22 +15,22 @@ if(a<35){
 }
 
 //switch 
- let x = 45
+ let x = 95
 
- switch(x){
-     case 34:
+ switch(true){
+     case x<35:
      console.log("fail");
      break;
-     case 35 :
+     case x>35 && x<=45 :
      console.log("pass");
      break;
-     case 45  :
+     case x>45 && x<=59  :
      console.log("secound class");
      break;
-     case 60:
+     case x>59 && x<=79:
      console.log("first class");
      break;
-     case 80:
+     case x>79:
      default:
      console.log("distintion");
      break;           
